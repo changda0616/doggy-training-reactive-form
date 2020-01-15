@@ -1,16 +1,18 @@
-<!-- 以下為 template driven form -->
-<!-- <form #form="ngForm" (ngSubmit)="onSubmit(form)">
-  <div ngModelGroup="step1" #step1="ngModelGroup">
-    <label for="name">name: </label><input type="text" name="name" [(ngModel)]="data.name" required /><br />
-    <label for="phone">phone: </label><input type="tel" name="phone" [(ngModel)]="data.phone" required
-      minlength="7" /><br />
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <div formGroupName="step1">
+    <label for="name">name: </label><input type="text" formControlName="name" /><br />
+    <label for="phone">phone: </label><input type="tel" formControlName="phone" /><br />
+    <div formArrayName="team">
+      <input type="text" *ngFor="let item of $any(form.controls).step1.controls.team.controls; let i=index"
+        [formControlName]="i">
+    </div>
   </div>
-  <div ngModelGroup="step2" #step2="ngModelGroup" [hidden]="step1.invalid">
+  <div formGroupName="step2" [hidden]="step1.invalid">
     <label for="recommandation-number">recommandation number: </label>
-    <input type="text" name="recommandation-number" [(ngModel)]="data.recommandationNumber"
-      #recommandationNumber="ngModel" required /><br />
+    <input type="text" formControlName="recommandationNumber" /><br />
     <label for="recommandation">recommandation: </label>
-    <input type="text" name="recommandation" [(ngModel)]="data.recommandation" disabled required/><br />
+    <input type="text" formControlName="recommandation" /><br />
   </div>
-  <button type="submit" [disabled]="form.invalid">submit</button>
-</form> -->
+  <button [disabled]="form.invalid && !recommandation.value" type="submit">submit</button>
+  <pre>{{form.value | json}}</pre>
+</form>
