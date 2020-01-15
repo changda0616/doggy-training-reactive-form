@@ -1,303 +1,403 @@
 {
   "member": [{
     "id": 1,
-    "name": "Teresina"
+    "name": "Teresina",
+    "isRequire": true
   }, {
     "id": 2,
-    "name": "Cos"
+    "name": "Cos",
+    "isRequire": false
   }, {
     "id": 3,
-    "name": "Pauly"
+    "name": "Pauly",
+    "isRequire": true
   }, {
     "id": 4,
-    "name": "Frants"
+    "name": "Frants",
+    "isRequire": false
   }, {
     "id": 5,
-    "name": "Tuesday"
+    "name": "Tuesday",
+    "isRequire": true
   }, {
     "id": 6,
-    "name": "Thayne"
+    "name": "Thayne",
+    "isRequire": false
   }, {
     "id": 7,
-    "name": "Jocko"
+    "name": "Jocko",
+    "isRequire": true
   }, {
     "id": 8,
-    "name": "Maryanne"
+    "name": "Maryanne",
+    "isRequire": true
   }, {
     "id": 9,
-    "name": "Dionne"
+    "name": "Dionne",
+    "isRequire": true
   }, {
     "id": 10,
-    "name": "Armstrong"
+    "name": "Armstrong",
+    "isRequire": true
   }, {
     "id": 11,
-    "name": "Abra"
+    "name": "Abra",
+    "isRequire": true
   }, {
     "id": 12,
-    "name": "Ruddy"
+    "name": "Ruddy",
+    "isRequire": true
   }, {
     "id": 13,
-    "name": "Patrizia"
+    "name": "Patrizia",
+    "isRequire": true
   }, {
     "id": 14,
-    "name": "Tori"
+    "name": "Tori",
+    "isRequire": true
   }, {
     "id": 15,
-    "name": "Casey"
+    "name": "Casey",
+    "isRequire": true
   }, {
     "id": 16,
-    "name": "Xymenes"
+    "name": "Xymenes",
+    "isRequire": true
   }, {
     "id": 17,
-    "name": "Tonye"
+    "name": "Tonye",
+    "isRequire": true
   }, {
     "id": 18,
-    "name": "Walsh"
+    "name": "Walsh",
+    "isRequire": true
   }, {
     "id": 19,
-    "name": "Anna-maria"
+    "name": "Anna-maria",
+    "isRequire": true
   }, {
     "id": 20,
-    "name": "Suzanne"
+    "name": "Suzanne",
+    "isRequire": true
   }, {
     "id": 21,
-    "name": "Weber"
+    "name": "Weber",
+    "isRequire": true
   }, {
     "id": 22,
-    "name": "Philippe"
+    "name": "Philippe",
+    "isRequire": true
   }, {
     "id": 23,
-    "name": "Mariellen"
+    "name": "Mariellen",
+    "isRequire": true
   }, {
     "id": 24,
-    "name": "Mattie"
+    "name": "Mattie",
+    "isRequire": true
   }, {
     "id": 25,
-    "name": "Giordano"
+    "name": "Giordano",
+    "isRequire": true
   }, {
     "id": 26,
-    "name": "Norton"
+    "name": "Norton",
+    "isRequire": true
   }, {
     "id": 27,
-    "name": "Sheelah"
+    "name": "Sheelah",
+    "isRequire": true
   }, {
     "id": 28,
-    "name": "Carol"
+    "name": "Carol",
+    "isRequire": true
   }, {
     "id": 29,
-    "name": "Dallas"
+    "name": "Dallas",
+    "isRequire": true
   }, {
     "id": 30,
-    "name": "Adela"
+    "name": "Adela",
+    "isRequire": true
   }, {
     "id": 31,
-    "name": "Joye"
+    "name": "Joye",
+    "isRequire": true
   }, {
     "id": 32,
-    "name": "Darrin"
+    "name": "Darrin",
+    "isRequire": true
   }, {
     "id": 33,
-    "name": "Devondra"
+    "name": "Devondra",
+    "isRequire": true
   }, {
     "id": 34,
-    "name": "Ansell"
+    "name": "Ansell",
+    "isRequire": true
   }, {
     "id": 35,
-    "name": "Harbert"
+    "name": "Harbert",
+    "isRequire": true
   }, {
     "id": 36,
-    "name": "Gael"
+    "name": "Gael",
+    "isRequire": true
   }, {
     "id": 37,
-    "name": "Cortie"
+    "name": "Cortie",
+    "isRequire": true
   }, {
     "id": 38,
-    "name": "Rowen"
+    "name": "Rowen",
+    "isRequire": true
   }, {
     "id": 39,
-    "name": "Tani"
+    "name": "Tani",
+    "isRequire": true
   }, {
     "id": 40,
-    "name": "Moira"
+    "name": "Moira",
+    "isRequire": true
   }, {
     "id": 41,
-    "name": "Godwin"
+    "name": "Godwin",
+    "isRequire": true
   }, {
     "id": 42,
-    "name": "Gerrie"
+    "name": "Gerrie",
+    "isRequire": true
   }, {
     "id": 43,
-    "name": "Portie"
+    "name": "Portie",
+    "isRequire": true
   }, {
     "id": 44,
-    "name": "Morena"
+    "name": "Morena",
+    "isRequire": true
   }, {
     "id": 45,
-    "name": "Shem"
+    "name": "Shem",
+    "isRequire": true
   }, {
     "id": 46,
-    "name": "Elsy"
+    "name": "Elsy",
+    "isRequire": true
   }, {
     "id": 47,
-    "name": "Lira"
+    "name": "Lira",
+    "isRequire": true
   }, {
     "id": 48,
-    "name": "Dolli"
+    "name": "Dolli",
+    "isRequire": true
   }, {
     "id": 49,
-    "name": "Melva"
+    "name": "Melva",
+    "isRequire": true
   }, {
     "id": 50,
-    "name": "Jake"
+    "name": "Jake",
+    "isRequire": true
   }, {
     "id": 51,
-    "name": "Dasi"
+    "name": "Dasi",
+    "isRequire": true
   }, {
     "id": 52,
-    "name": "Tracee"
+    "name": "Tracee",
+    "isRequire": true
   }, {
     "id": 53,
-    "name": "Tani"
+    "name": "Tani",
+    "isRequire": true
   }, {
     "id": 54,
-    "name": "Portia"
+    "name": "Portia",
+    "isRequire": true
   }, {
     "id": 55,
-    "name": "Lindsey"
+    "name": "Lindsey",
+    "isRequire": true
   }, {
     "id": 56,
-    "name": "Jasmin"
+    "name": "Jasmin",
+    "isRequire": true
   }, {
     "id": 57,
-    "name": "Gill"
+    "name": "Gill",
+    "isRequire": true
   }, {
     "id": 58,
-    "name": "Mala"
+    "name": "Mala",
+    "isRequire": true
   }, {
     "id": 59,
-    "name": "Lidia"
+    "name": "Lidia",
+    "isRequire": true
   }, {
     "id": 60,
-    "name": "Floyd"
+    "name": "Floyd",
+    "isRequire": true
   }, {
     "id": 61,
-    "name": "Marni"
+    "name": "Marni",
+    "isRequire": true
   }, {
     "id": 62,
-    "name": "Sarah"
+    "name": "Sarah",
+    "isRequire": true
   }, {
     "id": 63,
-    "name": "Bobby"
+    "name": "Bobby",
+    "isRequire": true
   }, {
     "id": 64,
-    "name": "Flora"
+    "name": "Flora",
+    "isRequire": true
   }, {
     "id": 65,
-    "name": "Franny"
+    "name": "Franny",
+    "isRequire": true
   }, {
     "id": 66,
-    "name": "Genevieve"
+    "name": "Genevieve",
+    "isRequire": true
   }, {
     "id": 67,
-    "name": "Christie"
+    "name": "Christie",
+    "isRequire": true
   }, {
     "id": 68,
-    "name": "Khalil"
+    "name": "Khalil",
+    "isRequire": true
   }, {
     "id": 69,
-    "name": "Chrissy"
+    "name": "Chrissy",
+    "isRequire": true
   }, {
     "id": 70,
-    "name": "Quill"
+    "name": "Quill",
+    "isRequire": true
   }, {
     "id": 71,
-    "name": "Toddie"
+    "name": "Toddie",
+    "isRequire": true
   }, {
     "id": 72,
-    "name": "Kristina"
+    "name": "Kristina",
+    "isRequire": true
   }, {
     "id": 73,
-    "name": "Ellerey"
+    "name": "Ellerey",
+    "isRequire": true
   }, {
     "id": 74,
-    "name": "Dolph"
+    "name": "Dolph",
+    "isRequire": true
   }, {
     "id": 75,
-    "name": "Corliss"
+    "name": "Corliss",
+    "isRequire": true
   }, {
     "id": 76,
-    "name": "Shamus"
+    "name": "Shamus",
+    "isRequire": true
   }, {
     "id": 77,
-    "name": "Maddie"
+    "name": "Maddie",
+    "isRequire": true
   }, {
     "id": 78,
-    "name": "Mathilde"
+    "name": "Mathilde",
+    "isRequire": true
   }, {
     "id": 79,
-    "name": "Stacee"
+    "name": "Stacee",
+    "isRequire": true
   }, {
     "id": 80,
-    "name": "Roland"
+    "name": "Roland",
+    "isRequire": true
   }, {
     "id": 81,
-    "name": "Hanni"
+    "name": "Hanni",
+    "isRequire": true
   }, {
     "id": 82,
-    "name": "Tyne"
+    "name": "Tyne",
+    "isRequire": true
   }, {
     "id": 83,
-    "name": "Hobey"
+    "name": "Hobey",
+    "isRequire": true
   }, {
     "id": 84,
-    "name": "Clemens"
+    "name": "Clemens",
+    "isRequire": true
   }, {
     "id": 85,
-    "name": "Maia"
+    "name": "Maia",
+    "isRequire": true
   }, {
     "id": 86,
-    "name": "Lise"
+    "name": "Lise",
+    "isRequire": true
   }, {
     "id": 87,
-    "name": "Ginger"
+    "name": "Ginger",
+    "isRequire": true
   }, {
     "id": 88,
-    "name": "Catlaina"
+    "name": "Catlaina",
+    "isRequire": true
   }, {
     "id": 89,
-    "name": "Joshuah"
+    "name": "Joshuah",
+    "isRequire": true
   }, {
     "id": 90,
-    "name": "Shanna"
+    "name": "Shanna",
+    "isRequire": true
   }, {
     "id": 91,
-    "name": "Bourke"
+    "name": "Bourke",
+    "isRequire": true
   }, {
     "id": 92,
-    "name": "Arlinda"
+    "name": "Arlinda",
+    "isRequire": true
   }, {
     "id": 93,
-    "name": "Truman"
+    "name": "Truman",
+    "isRequire": true
   }, {
     "id": 94,
-    "name": "Lyndsay"
+    "name": "Lyndsay",
+    "isRequire": true
   }, {
     "id": 95,
-    "name": "Abeu"
+    "name": "Abeu",
+    "isRequire": true
   }, {
     "id": 96,
-    "name": "Manolo"
+    "name": "Manolo",
+    "isRequire": true
   }, {
     "id": 97,
-    "name": "Marcela"
+    "name": "Marcela",
+    "isRequire": true
   }, {
     "id": 98,
-    "name": "Aloysia"
+    "name": "Aloysia",
+    "isRequire": true
   }, {
     "id": 99,
-    "name": "Elianora"
+    "name": "Elianora",
+    "isRequire": true
   }, {
     "id": 100,
-    "name": "Friederike"
+    "name": "Friederike",
+    "isRequire": true
   }]
 }
