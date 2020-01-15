@@ -1,0 +1,18 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <div formGroupName="step1">
+    <label for="name">name: </label><input type="text" formControlName="name" /><br />
+    <label for="phone">phone: </label><input type="tel" formControlName="phone" /><br />
+    <div formArrayName="team">
+      <input type="text" *ngFor="let item of $any(form.controls).step1.controls.team.controls; let i=index"
+        [formControlName]="i">
+    </div>
+  </div>
+  <div formGroupName="step2" [hidden]="step1.invalid">
+    <label for="recommandation-number">recommandation number: </label>
+    <input type="text" formControlName="recommandationNumber" /><br />
+    <label for="recommandation">recommandation: </label>
+    <input type="text" formControlName="recommandation" /><br />
+  </div>
+  <button [disabled]="form.invalid && !recommandation.value" type="submit">submit</button>
+  <pre>{{form.value | json}}</pre>
+</form>

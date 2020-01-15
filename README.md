@@ -1,27 +1,16 @@
-# DoggyTrainingReactiveForm
+# Reactive-driven form 改寫
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+請在 `member-info` 建立表單
 
-## Development server
+此表單有 2 個群組, 1 個提交按鈕，並請利用 `member-info.component.ts` 中的 `data` 屬性進行**綁定**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- 第一個群組包含：
+  - 姓名 - **必填**
+  - 電話號碼 - **必填**且最小必須輸入 7 個字元
 
-## Code scaffolding
+- 第二個群組 - 在第一個群組驗證為正確後，才可出現
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+  - 推薦行員 id - **必填**
+  - 推薦行員姓名 - **必填**，且**不可以手動輸入**，必須利用推薦行員 id 發出 http request 拿到相對應的行員姓名，再自動填入，如果沒有找到相對應的行員，請回應 "查無此人"！
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- 提交按鈕 - 要在表單驗證為正確後，才可按；按下後，要 **清空** , **重置** 表單。
